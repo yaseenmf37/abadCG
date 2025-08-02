@@ -235,19 +235,19 @@ export default function Menu() {
       <div className="flex mb-6 w-full justify-evenly">
         <a
           href="#hot"
-          className="px-3 py-1 bg-white text-[#8B0000] rounded-full text-sm w-1/4 text-center"
+          className="px-3 py-1 bg-[#f9f2e9] text-[#8B0000] rounded-full text-sm w-1/4 text-center items-center justify-center flex"
         >
           نوشیدنی گرم
         </a>
         <a
           href="#cold"
-          className="px-3 py-1 bg-white text-[#8B0000] rounded-full text-sm w-1/4 text-center"
+          className="px-3 py-1 bg-[#f9f2e9] text-[#8B0000] rounded-full text-sm w-1/4 text-center items-center justify-center flex"
         >
           نوشیدنی سرد
         </a>
         <a
           href="#food"
-          className="px-3 py-1 bg-white text-[#8B0000] rounded-full text-sm w-1/4 text-center"
+          className="px-3 py-1 bg-[#f9f2e9] text-[#8B0000] rounded-full text-sm w-1/4 text-center items-center justify-center flex"
         >
           غذا
         </a>
@@ -263,7 +263,7 @@ export default function Menu() {
           .map((item, index) => (
             <div
               key={index}
-              className="bg-white text-black border border-gray-400 rounded-xl flex flex-col items-center p-3"
+              className="bg-[#661212] text-[#f9f2e9] rounded-xl flex flex-col items-center p-3 justify-between min-h-36"
             >
               <h3 className="text-sm font-semibold mb-2">{item.title}</h3>
               <img
@@ -271,7 +271,17 @@ export default function Menu() {
                 alt={item.name}
                 className="hidden h-20 object-contain mb-2 w-auto"
               />
-              <p className="mb-1 text-center h-12">{item.name}</p>
+
+              {item.name ? (
+                <div className="bg-[#7a2b2b] text-[11px] px-2 py-1 rounded-md mb-2 text-center leading-relaxed shadow-inner border border-[#8a3a3a] w-full">
+                  {item.name}
+                </div>
+              ) : (
+                <p className="h-16 flex items-center">
+                  <img src="/imgs/cup.png" alt="cup coffee" className="w-10" />
+                </p>
+              )}
+
               <span className="font-bold">
                 {numeral(item.price).format("0,0")} تومان
               </span>
@@ -289,7 +299,7 @@ export default function Menu() {
           .map((item, index) => (
             <div
               key={index}
-              className="bg-white text-black border border-gray-400 rounded-xl flex flex-col items-center p-3"
+              className="bg-[#661212] text-[#f9f2e9] rounded-xl flex flex-col items-center p-3 justify-between min-h-36"
             >
               <h3 className="text-sm font-semibold mb-2">{item.title}</h3>
               <img
@@ -297,7 +307,17 @@ export default function Menu() {
                 alt={item.name}
                 className="hidden h-20 object-contain mb-2 w-auto"
               />
-              <p className="mb-1 text-center h-12">{item.name}</p>
+
+              {item.name ? (
+                <div className="bg-[#7a2b2b] text-[11px] px-2 py-1 rounded-md mb-2 text-center leading-relaxed shadow-inner border border-[#8a3a3a] w-full">
+                  {item.name}
+                </div>
+              ) : (
+                <p className="h-16 flex items-center">
+                  <img src="/imgs/cup.png" alt="cup coffee" className="w-10" />
+                </p>
+              )}
+
               <span className="font-bold">
                 {numeral(item.price).format("0,0")} تومان
               </span>
@@ -315,7 +335,7 @@ export default function Menu() {
           .map((item, index) => (
             <div
               key={index}
-              className="bg-white text-black border border-gray-400 rounded-xl flex flex-col items-center p-3"
+              className="bg-[#661212] text-[#f9f2e9] rounded-xl flex flex-col items-center p-3 justify-between min-h-36"
             >
               <h3 className="text-sm font-semibold mb-2">{item.title}</h3>
               <img
@@ -323,7 +343,17 @@ export default function Menu() {
                 alt={item.name}
                 className="hidden h-20 object-contain mb-2 w-auto"
               />
-              <p className="mb-1 text-center h-12">{item.name}</p>
+
+              {item.name ? (
+                <div className="bg-[#7a2b2b] text-[11px] px-2 py-1 rounded-md mb-2 text-center leading-relaxed shadow-inner border border-[#8a3a3a] w-full">
+                  {item.name}
+                </div>
+              ) : (
+                <p className="h-16 flex items-center">
+                  <img src="/imgs/cup.png" alt="cup coffee" className="w-10" />
+                </p>
+              )}
+
               <span className="font-bold">
                 {numeral(item.price).format("0,0")} تومان
               </span>

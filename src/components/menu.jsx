@@ -227,34 +227,42 @@ const menuItems = [
 
 export default function Menu() {
   return (
-    <div className="flex flex-col items-center bg-[#8B0000] min-h-screen p-4 font-vazir text-white">
-      <h1 className="text-4xl text-orange-300 font-extrabold mb-2">کافه ابد</h1>
-      <h2 className="text-xl text-orange-300 mb-6">منو</h2>
+    <div className="flex flex-col items-center bg-[#8B0000] min-h-screen p-4 text-white">
+      <h1 className="text-7xl ordi text-black font-extrabold mb-2">کافه ابد</h1>
+      <div className="flex flex-col items-center my-2">
+        <p className="text-sm text-center text-[#cfcfcf] my-1 font-bold">
+          آنْچِه ما دَر زَندِگى اَنجام مى‌دَهيمْ، <b />
+          دَر اَبَديَّت بازتاب پیدا میکند
+        </p>
+        <span className="block w-full h-[2px] bg-[#4e4e4e] rounded-full"></span>
+      </div>
+
+      <h2 className="text-xl ordi text-[#000000] font-black my-6">منو</h2>
 
       {/* navigation بالا */}
-      <div className="flex mb-6 w-full justify-evenly">
+      <div className="flex mb-6 w-full justify-center sticky top-0 z-50 bg-[#e2e2e2] backdrop-blur-md shadow-md rounded-b-xl overflow-hidden">
         <a
           href="#hot"
-          className="px-3 py-1 bg-[#f9f2e9] text-[#8B0000] rounded-full text-sm w-1/4 text-center items-center justify-center flex"
+          className="flex-1 px-3 py-2 text-center text-[#8B0000] text-sm font-semibold hover:bg-[#8B0000]/10 transition-colors"
         >
           نوشیدنی گرم
         </a>
         <a
           href="#cold"
-          className="px-3 py-1 bg-[#f9f2e9] text-[#8B0000] rounded-full text-sm w-1/4 text-center items-center justify-center flex"
+          className="flex-1 px-3 py-2 text-center text-[#8B0000] text-sm font-semibold hover:bg-[#8B0000]/10 transition-colors"
         >
           نوشیدنی سرد
         </a>
         <a
           href="#food"
-          className="px-3 py-1 bg-[#f9f2e9] text-[#8B0000] rounded-full text-sm w-1/4 text-center items-center justify-center flex"
+          className="flex-1 px-3 py-2 text-center text-[#8B0000] text-sm font-semibold hover:bg-[#8B0000]/10 transition-colors"
         >
           غذا
         </a>
       </div>
 
       {/* سکشن نوشیدنی گرم */}
-      <h2 id="hot" className="text-lg font-bold text-orange-200 mb-2">
+      <h2 id="hot" className="text-4xl ordi mt-5 font-bold text-black mb-10">
         نوشیدنی گرم
       </h2>
       <div className="grid grid-cols-2 gap-4 w-full max-w-md mb-6">
@@ -263,9 +271,11 @@ export default function Menu() {
           .map((item, index) => (
             <div
               key={index}
-              className="bg-[#661212] text-[#f9f2e9] rounded-xl flex flex-col items-center p-3 justify-between min-h-36"
+              className="bg-[#661212 border-2 border-black text-[#ffffff] rounded-xl flex flex-col items-center p-3 justify-between min-h-36"
             >
-              <h3 className="text-sm font-semibold mb-2">{item.title}</h3>
+              <h3 className="text-base font-semibold mb-2 yekan">
+                {item.title}
+              </h3>
               <img
                 src={item.image}
                 alt={item.name}
@@ -290,7 +300,7 @@ export default function Menu() {
       </div>
 
       {/* سکشن نوشیدنی سرد */}
-      <h2 id="cold" className="text-lg font-bold text-orange-200 mb-2">
+      <h2 id="cold" className="text-4xl ordi font-bold text-black mt-20 mb-10">
         نوشیدنی سرد
       </h2>
       <div className="grid grid-cols-2 gap-4 w-full max-w-md mb-6">
@@ -299,9 +309,11 @@ export default function Menu() {
           .map((item, index) => (
             <div
               key={index}
-              className="bg-[#661212] text-[#f9f2e9] rounded-xl flex flex-col items-center p-3 justify-between min-h-36"
+              className="bg-[#661212 border-2 border-black text-[#ffffff] rounded-xl flex flex-col items-center p-3 justify-between min-h-36"
             >
-              <h3 className="text-sm font-semibold mb-2">{item.title}</h3>
+              <h3 className="text-base font-semibold mb-2 yekan">
+                {item.title}
+              </h3>
               <img
                 src={item.image}
                 alt={item.name}
@@ -326,7 +338,7 @@ export default function Menu() {
       </div>
 
       {/* سکشن غذا */}
-      <h2 id="food" className="text-lg font-bold text-orange-200 mb-2">
+      <h2 id="food" className="text-4xl ordi mt-20 mb-10 font-bold text-black">
         غذا
       </h2>
       <div className="grid grid-cols-2 gap-4 w-full max-w-md mb-6">
@@ -335,9 +347,11 @@ export default function Menu() {
           .map((item, index) => (
             <div
               key={index}
-              className="bg-[#661212] text-[#f9f2e9] rounded-xl flex flex-col items-center p-3 justify-between min-h-36"
+              className="bg-[#661212 border-2 border-black text-[#ffffff] rounded-xl flex flex-col items-center p-3 justify-between min-h-36"
             >
-              <h3 className="text-sm font-semibold mb-2">{item.title}</h3>
+              <h3 className="text-base font-semibold mb-2 yekan">
+                {item.title}
+              </h3>
               <img
                 src={item.image}
                 alt={item.name}
@@ -360,34 +374,33 @@ export default function Menu() {
             </div>
           ))}
       </div>
-      <footer className="bg-[#8B0000] border-t border-[#FFD700]/40 text-[#FFDAB9] text-justify leading-loose px-6 py-8 mt-8 font-vazir">
-        <div className="max-w-4xl mx-auto">
-          {/* می‌تونی اینجا یه لوگوی کوچک بگذاری */}
-          <div className="flex justify-center mb-4">
+      <footer className="bg-gradient-to-b from-[#8B0000] to-[#5a0000] border-2 rounded-xl border-[#272727] text-[#FFDAB9] text-center leading-relaxed px-6 py-10 mt-12 font-vazir">
+        <div className="max-w-3xl mx-auto">
+          <div className="flex justify-center mb-6">
             <img
-              src="/imgs/abadCG.webp"
+              src="/imgs/abadCG.jpg"
               alt="ابد"
-              className="w-40 h-40 rounded-xl border border-[#FFD700]/50 shadow-md"
+              className="w-32 h-32 border border-[#FFD700]/70 shadow-[0_0_20px_rgba(255,215,0,0.3)]"
             />
           </div>
-          <p className="mb-4 drop-shadow-sm">
+          <p className="mb-5 text-base md:text-lg drop-shadow-[0_1px_1px_rgba(0,0,0,0.4)]">
             در دل خیابان‌های کهن گرگان، جایی میان خاطرات یک خانه‌ی قدیمی و رؤیای
             یک گالری، «ابد» متولد شد؛ مکانی که زمان، آرام در آن رنگ می‌بازد و هر
             جرعه‌ قهوه، سفری‌ست به عمق روح.
           </p>
-          <p className="mb-4 drop-shadow-sm">
+          <p className="mb-5 text-base md:text-lg drop-shadow-[0_1px_1px_rgba(0,0,0,0.4)]">
             اینجا هنر در هوا جاری‌ست؛ موسیقی از دل دیوارهای سپید و پنجره‌هایی که
             رو به میدان گشوده‌اند می‌گذرد، و نگاهت در رفت‌وآمد زندگی، آرام گره
             می‌خورد. جایی که دوای دلتنگی‌ات را در فنجانی سرخ می‌نوشی و غم‌های
             گذرا را میان دست‌سازه‌ها جا می‌گذاری؛ آثاری که با دست و دل خلق
             شده‌اند تا قصه بگویند، بی‌آن‌که کلامی بگویند.
           </p>
-          <p className="mb-4 drop-shadow-sm">
+          <p className="mb-5 text-base md:text-lg drop-shadow-[0_1px_1px_rgba(0,0,0,0.4)]">
             «ابد» بیش از یک کافه است؛ روایت پیوند دیروز و امروز، گالری‌ای زنده
             از نگاه‌ها، لبخندها و مکث‌هایی که شاید کوتاه باشند، اما در دل، بلند
             و ابدی‌اند.
           </p>
-          <p className="drop-shadow-sm">
+          <p className="text-base md:text-lg drop-shadow-[0_1px_1px_rgba(0,0,0,0.4)]">
             فرق ازل و ابد در آن است که ازل را آغازی نیست و ابد را پایانی نیست… و
             ما، در «ابد»، گرد هم می‌آییم؛ تا در بی‌کرانگی هنر و دوستی، لحظه‌ای
             بایستیم… لحظه‌ای که هرچند کوتاه است، اما شاید، ابدی شود.

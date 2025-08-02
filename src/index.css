@@ -5,13 +5,33 @@
 @font-face {
   font-family: "Vazir";
   src: url("/fonts/Vazir-Thin.woff2") format("woff2");
-  font-weight: 100; /* چون Thin هست */
+  font-weight: 100;
   font-style: normal;
 }
 
-body {
-  font-family: "Vazir", sans-serif;
-  font-weight: 100; /* چون فقط thin داری */
+@font-face {
+  font-family: "ordi";
+  src: url("/fonts/AOrdibeheshtShablon/AOrdibeheshtshablon.TTF")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Far_Yekan";
+  src: url("/fonts/Far_Yekan/Far_Yekan.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.yekan {
+  font-family: "Far_Yekan", sans-serif;
+  font-weight: 400;
+}
+
+.ordi {
+  font-family: "ordi", sans-serif;
+  font-weight: 400;
 }
 
 html {

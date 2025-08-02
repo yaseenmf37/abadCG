@@ -278,7 +278,7 @@ export default function Menu() {
                 </div>
               ) : (
                 <p className="h-16 flex items-center">
-                  <img src="/imgs/cup.png" alt="cup coffee" className="w-10" />
+                  <img src="/imgs/warm.png" alt="cup coffee" className="w-10" />
                 </p>
               )}
 
@@ -314,7 +314,7 @@ export default function Menu() {
                 </div>
               ) : (
                 <p className="h-16 flex items-center">
-                  <img src="/imgs/cup.png" alt="cup coffee" className="w-10" />
+                  <img src="/imgs/cold.png" alt="lomonad" className="w-10" />
                 </p>
               )}
 
@@ -350,7 +350,7 @@ export default function Menu() {
                 </div>
               ) : (
                 <p className="h-16 flex items-center">
-                  <img src="/imgs/cup.png" alt="cup coffee" className="w-10" />
+                  <img src="/imgs/food.png" alt="food" className="w-10" />
                 </p>
               )}
 

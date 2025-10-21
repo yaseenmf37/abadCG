@@ -5,71 +5,71 @@ const menuItems = [
   // سرد
   {
     category: "نوشیدنی سرد",
-    title: "آیس لاته آمریکانو",
-    name: "",
-    price: "65000",
+    title: "آیس آمریکانو",
+    desc: "",
+    price: "80000",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "آیس لاته",
-    name: "",
-    price: "100000",
+    desc: "",
+    price: "120000",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "آیس لاته طعم داره",
-    name: "سیروب شکلات + کارامل + وانیل + فندق",
-    price: "115000",
+    desc: "سیروب شکلات + کارامل + وانیل + فندق",
+    price: "130000",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
-    title: "آفاگاتو",
-    name: "",
-    price: "110000",
+    title: "آفوگاتو",
+    desc: "",
+    price: "120000",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "شیک شکلات",
-    name: "",
-    price: "135000",
+    desc: "",
+    price: "150000",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "شیک سوداد",
-    name: "اسپرسو + بیسکوییت مادر + سیروب فندق + بستنی",
+    desc: "اسپرسو + بیسکوییت مادر + سیروب فندق + بستنی",
+    price: "210000",
+    image: "/imgs/album.webp",
+  },
+  {
+    category: "نوشیدنی سرد",
+    title: "شیک اورئو",
+    desc: "",
     price: "180000",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
-    title: "شیک اورء<",
-    name: "",
-    price: "170000",
-    image: "/imgs/album.webp",
-  },
-  {
-    category: "نوشیدنی سرد",
     title: "لیموناد",
-    name: "",
+    desc: "",
     price: "110000",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "موهیتو",
-    name: "",
+    desc: "",
     price: "120000",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "دوای غم های گذرا",
-    name: "سیروب رز + پنیرک + تخم شربتی +سودار + لیمو",
+    desc: "سیروب رز + پنیرک + تخم شربتی +سودا + لیمو",
 
     price: "120000",
     image: "/imgs/album.webp",
@@ -77,152 +77,177 @@ const menuItems = [
   {
     category: "نوشیدنی سرد",
     title: "دوای دلتنگی",
-    name: "سیروب لوندر + آلوئه ورا + آب سیب + بهار نارنج",
-    price: "100000",
+    desc: "سیروب لوندر + آبوئه ورا + آب سیب + بهار نارنج",
+    price: "110000",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "پا تختی",
-    name: "سیروب پرتقال ورز + تخم شربتی +سودا + شیرینی زبان",
-    price: "80000",
+    desc: "سیروب پرتقال ورز + تخم شربتی +سودا + شیرینی زبان",
+    price: "90000",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "شوق دیدار",
-    name: "سیروب وانیل + لیمو + آل لیمو+ بلوبلری",
-    price: "130000",
+    desc: "سیروب وانیل + لیمو + آب لیمو+ بلوبلری",
+    price: "140000",
+    image: "/imgs/album.webp",
+  },
+  {
+    category: "نوشیدنی سرد",
+    title: "کیک بستنی",
+    desc: "",
+    price: "145000",
     image: "/imgs/album.webp",
   },
   //   گرم
   {
     category: "نوشیدنی گرم",
     title: "چای",
-    name: "",
-    price: "55000",
-    image: "/imgs/album.webp",
-  },
-  {
-    category: "نوشیدنی گرم",
-    title: "اسپرسو",
-    name: "",
-    price: "60000",
-    image: "/imgs/album.webp",
-  },
-  {
-    category: "نوشیدنی گرم",
-    title: "آمریکانو",
-    name: "",
+    desc: "",
     price: "65000",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی گرم",
-    title: "لاته",
-    name: "",
-    price: "100000",
+    title: "اسپرسو",
+    desc: "",
+    price: "70000",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی گرم",
-    title: "لاته طعم دار",
-    name: "سیروب شکلات + کارامل + وانیل + فندق",
-    price: "115000",
-    image: "/imgs/album.webp",
-  },
-  {
-    category: "نوشیدنی گرم",
-    title: "کاپوچینو کلاسیک",
-    name: "",
-    price: "950000",
-    image: "/imgs/album.webp",
-  },
-  {
-    category: "نوشیدنی گرم",
-    title: "کاپوچینو پرمیوم",
-    name: "",
-    price: "85000",
-    image: "/imgs/album.webp",
-  },
-  {
-    category: "نوشیدنی گرم",
-    title: "هات چاکلت",
-    name: "",
-    price: "95000",
-    image: "/imgs/album.webp",
-  },
-  {
-    category: "نوشیدنی گرم",
-    title: "وایت چاکلت",
-    name: "",
+    title: "آمریکانو",
+    desc: "",
     price: "80000",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی گرم",
-    title: "چاکلت لاوا",
-    name: "",
-    price: "110000",
+    title: "لاته",
+    desc: "",
+    price: "120000",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی گرم",
-    title: "چای ماسالا",
-    name: "",
+    title: "لاته طعم دار",
+    desc: "سیروب شکلات + کارامل + وانیل + فندق",
+    price: "130000",
+    image: "/imgs/album.webp",
+  },
+  {
+    category: "نوشیدنی گرم",
+    title: "کاپوچینو کلاسیک",
+    desc: "",
+    price: "115000",
+    image: "/imgs/album.webp",
+  },
+  {
+    category: "نوشیدنی گرم",
+    title: "کاپوچینو پرمیوم",
+    desc: "",
     price: "100000",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی گرم",
+    title: "هات چاکلت",
+    desc: "",
+    price: "120000",
+    image: "/imgs/album.webp",
+  },
+  {
+    category: "نوشیدنی گرم",
+    title: "وایت چاکلت",
+    desc: "",
+    price: "110000",
+    image: "/imgs/album.webp",
+  },
+  {
+    category: "نوشیدنی گرم",
+    title: "چاکلت لاوا",
+    desc: "",
+    price: "130000",
+    image: "/imgs/album.webp",
+  },
+  {
+    category: "نوشیدنی گرم",
+    title: "چای ماسالا",
+    desc: "",
+    price: "110000",
+    image: "/imgs/album.webp",
+  },
+  {
+    category: "نوشیدنی گرم",
     title: "چای کرک",
-    name: "",
-    price: "90000",
+    desc: "",
+    price: "110000",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی گرم",
     title: "درتی بیسکوییت",
-    name: "",
-    price: "115000",
+    desc: "",
+    price: "150000",
     image: "/imgs/album.webp",
   },
   //   غذا
   {
     category: "غذا",
     title: "نیمرو",
-    name: "",
+    desc: "",
     price: "90000",
     image: "/imgs/album.webp",
   },
   {
     category: "غذا",
     title: "املت",
-    name: "",
+    desc: "",
     price: "95000",
     image: "/imgs/album.webp",
   },
   {
     category: "غذا",
     title: "سیب زمینی ساده",
-    name: "",
-    price: "140000",
+    desc: "",
+    price: "150000",
     image: "/imgs/album.webp",
   },
   {
     category: "غذا",
     title: "سیب زمینی با سس قارچی",
-    name: "",
-    price: "165000",
+    desc: "",
+    price: "175000",
     image: "/imgs/album.webp",
   },
   {
     category: "غذا",
     title: "پنینی مرغ",
-    name: "",
-    price: "185000",
+    desc: "",
+    price: "190000",
     image: "/imgs/album.webp",
   },
+  {
+    category: "غذا",
+    title: "ماکارونی",
+    desc: "فقط سه شنبه ها",
+    price: "145000",
+    image: "/imgs/album.webp",
+    class:
+      "relative border-2 border-yellow-400 text-white rounded-xl flex flex-col items-center p-3 justify-between min-h-36 shadow-[0_0_15px_rgba(255,215,0,0.6)] before:absolute before:inset-0 before:rounded-xl before:border-[3px] before:border-yellow-500 before:blur-sm before:opacity-60 before:animate-pulse",
+    class2:
+      "relative bg-[#7a2b2b] text-[11px] px-2 py-1 rounded-md mb-2 text-center leading-relaxed border-2 border-[#c49a3a] shadow-[0_0_10px_rgba(196,154,58,0.6)] before:absolute before:inset-0 before:rounded-md before:border-[2px] before:border-[#ffcc5c] before:blur-[1px] before:opacity-70 before:animate-pulse w-full",
+  },
+  // {
+  //   category: "غذا",
+  //   title: "سالاد سزار",
+  //   desc: "",
+  //   price: "190000",
+  //   image: "/imgs/album.webp",
+  // },
 ];
 
 export default function Menu() {
@@ -278,13 +303,13 @@ export default function Menu() {
               </h3>
               <img
                 src={item.image}
-                alt={item.name}
+                alt={item.desc}
                 className="hidden h-20 object-contain mb-2 w-auto"
               />
 
-              {item.name ? (
+              {item.desc ? (
                 <div className="bg-[#7a2b2b] text-[11px] px-2 py-1 rounded-md mb-2 text-center leading-relaxed shadow-inner border border-[#8a3a3a] w-full">
-                  {item.name}
+                  {item.desc}
                 </div>
               ) : (
                 <p className="h-16 flex items-center">
@@ -316,13 +341,13 @@ export default function Menu() {
               </h3>
               <img
                 src={item.image}
-                alt={item.name}
+                alt={item.desc}
                 className="hidden h-20 object-contain mb-2 w-auto"
               />
 
-              {item.name ? (
+              {item.desc ? (
                 <div className="bg-[#7a2b2b] text-[11px] px-2 py-1 rounded-md mb-2 text-center leading-relaxed shadow-inner border border-[#8a3a3a] w-full">
-                  {item.name}
+                  {item.desc}
                 </div>
               ) : (
                 <p className="h-16 flex items-center">
@@ -347,20 +372,28 @@ export default function Menu() {
           .map((item, index) => (
             <div
               key={index}
-              className="bg-[#661212 border-2 border-black text-[#ffffff] rounded-xl flex flex-col items-center p-3 justify-between min-h-36"
+              className={
+                item.class ??
+                "bg-[#661212 border-2 border-black text-[#ffffff] rounded-xl flex flex-col items-center p-3 justify-between min-h-36"
+              }
             >
               <h3 className="text-base font-semibold mb-2 yekan">
                 {item.title}
               </h3>
               <img
                 src={item.image}
-                alt={item.name}
+                alt={item.desc}
                 className="hidden h-20 object-contain mb-2 w-auto"
               />
 
-              {item.name ? (
-                <div className="bg-[#7a2b2b] text-[11px] px-2 py-1 rounded-md mb-2 text-center leading-relaxed shadow-inner border border-[#8a3a3a] w-full">
-                  {item.name}
+              {item.desc ? (
+                <div
+                  className={
+                    item.class2 ??
+                    "bg-[#7a2b2b] text-[11px] px-2 py-1 rounded-md mb-2 text-center leading-relaxed shadow-inner border border-[#8a3a3a] w-full"
+                  }
+                >
+                  {item.desc}
                 </div>
               ) : (
                 <p className="h-16 flex items-center">

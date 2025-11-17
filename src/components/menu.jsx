@@ -194,6 +194,13 @@ const menuItems = [
     price: "150000",
     image: "/imgs/album.webp",
   },
+  {
+    category: "نوشیدنی گرم",
+    title: "دمنوش درازنو",
+    desc: "لیمو +  آویشن + چای ترش + به همراه نبات و خرما",
+    price: "80000",
+    image: "/imgs/album.webp",
+  },
   //   غذا
   {
     category: "غذا",
@@ -240,6 +247,13 @@ const menuItems = [
       "relative border-2 border-yellow-400 text-white rounded-xl flex flex-col items-center p-3 justify-between min-h-36 shadow-[0_0_15px_rgba(255,215,0,0.6)] before:absolute before:inset-0 before:rounded-xl before:border-[3px] before:border-yellow-500 before:blur-sm before:opacity-60 before:animate-pulse",
     class2:
       "relative bg-[#7a2b2b] text-[11px] px-2 py-1 rounded-md mb-2 text-center leading-relaxed border-2 border-[#c49a3a] shadow-[0_0_10px_rgba(196,154,58,0.6)] before:absolute before:inset-0 before:rounded-md before:border-[2px] before:border-[#ffcc5c] before:blur-[1px] before:opacity-70 before:animate-pulse w-full",
+  },
+  {
+    category: "غذا",
+    title: "طعم سوم",
+    desc: "سیب زمینی + فیله مرغ مزه دار شده + قارچ + سرکه بالزامیک",
+    price: "240000",
+    image: "/imgs/album.webp",
   },
   // {
   //   category: "غذا",
@@ -313,7 +327,11 @@ export default function Menu() {
                 </div>
               ) : (
                 <p className="h-16 flex items-center">
-                  <img src="/imgs/warm.png" alt="cup coffee" className="w-10" />
+                  <img
+                    src="/imgs/warm.webp"
+                    alt="cup coffee"
+                    className="w-10"
+                  />
                 </p>
               )}
 
@@ -351,7 +369,7 @@ export default function Menu() {
                 </div>
               ) : (
                 <p className="h-16 flex items-center">
-                  <img src="/imgs/cold.png" alt="lomonad" className="w-10" />
+                  <img src="/imgs/cold.webp" alt="lomonad" className="w-10" />
                 </p>
               )}
 
@@ -397,7 +415,7 @@ export default function Menu() {
                 </div>
               ) : (
                 <p className="h-16 flex items-center">
-                  <img src="/imgs/food.png" alt="food" className="w-10" />
+                  <img src="/imgs/food.webp" alt="food" className="w-10" />
                 </p>
               )}
 
@@ -411,7 +429,7 @@ export default function Menu() {
         <div className="max-w-3xl mx-auto">
           <div className="flex justify-center mb-6">
             <img
-              src="/imgs/abadCG.jpg"
+              src="/imgs/abadCG.webp"
               alt="ابد"
               className="w-32 h-32 border border-[#FFD700]/70 shadow-[0_0_20px_rgba(255,215,0,0.3)]"
             />

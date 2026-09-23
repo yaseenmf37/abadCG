@@ -26,7 +26,7 @@ const menuItems = [
   },
   {
     category: "نوشیدنی سرد",
-    title: "آیس لاته طعم داره",
+    title: "آیس لاته طعم دار",
     desc: "سیروب شکلات + کارامل + وانیل + فندق",
     price: "320",
     image: "/imgs/album.webp",

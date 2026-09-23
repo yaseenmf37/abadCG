@@ -7,99 +7,105 @@ const menuItems = [
     category: "نوشیدنی سرد",
     title: "آیس آمریکانو",
     desc: "",
-    price: "80000",
+    price: "195",
+    image: "/imgs/album.webp",
+  },
+  {
+    category: "نوشیدنی سرد",
+    title: "آیس آمریکانو طعمدار",
+    desc: "",
+    price: "225",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "آیس لاته",
     desc: "",
-    price: "120000",
+    price: "280",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "آیس لاته طعم داره",
     desc: "سیروب شکلات + کارامل + وانیل + فندق",
-    price: "130000",
+    price: "320",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "آفوگاتو",
     desc: "",
-    price: "120000",
+    price: "230",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "شیک شکلات",
     desc: "",
-    price: "150000",
+    price: "350",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "شیک سوداد",
     desc: "اسپرسو + بیسکوییت مادر + سیروب فندق + بستنی",
-    price: "210000",
+    price: "470",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "شیک اورئو",
     desc: "",
-    price: "180000",
+    price: "395",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "لیموناد",
     desc: "",
-    price: "110000",
+    price: "270",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "موهیتو",
     desc: "",
-    price: "120000",
+    price: "280",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "دوای غم های گذرا",
     desc: "سیروب رز + پنیرک + تخم شربتی +سودا + لیمو",
-
-    price: "120000",
-    image: "/imgs/album.webp",
-  },
-  {
-    category: "نوشیدنی سرد",
-    title: "دوای دلتنگی",
-    desc: "سیروب لوندر + آبوئه ورا + آب سیب + بهار نارنج",
-    price: "110000",
+    price: "240",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "پا تختی",
     desc: "سیروب پرتقال ورز + تخم شربتی +سودا + شیرینی زبان",
-    price: "90000",
+    price: "220",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "شوق دیدار",
     desc: "سیروب وانیل + لیمو + آب لیمو+ بلوبلری",
-    price: "140000",
+    price: "290",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی سرد",
     title: "کیک بستنی",
     desc: "",
-    price: "145000",
+    price: "310",
+    image: "/imgs/album.webp",
+  },
+  {
+    category: "نوشیدنی سرد",
+    title: "بستنی (3اسکوپ)",
+    desc: "",
+    price: "195",
     image: "/imgs/album.webp",
   },
   //   گرم
@@ -107,159 +113,134 @@ const menuItems = [
     category: "نوشیدنی گرم",
     title: "چای",
     desc: "",
-    price: "65000",
+    price: "95",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی گرم",
     title: "اسپرسو",
     desc: "",
-    price: "70000",
+    price: "175",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی گرم",
     title: "آمریکانو",
     desc: "",
-    price: "80000",
+    price: "195",
+    image: "/imgs/album.webp",
+  },
+  {
+    category: "نوشیدنی گرم",
+    title: "آمریکانو طعمدار",
+    desc: "",
+    price: "230",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی گرم",
     title: "لاته",
     desc: "",
-    price: "120000",
+    price: "270",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی گرم",
     title: "لاته طعم دار",
     desc: "سیروب شکلات + کارامل + وانیل + فندق",
-    price: "130000",
+    price: "310",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی گرم",
-    title: "کاپوچینو کلاسیک",
+    title: "کاپوچینو",
     desc: "",
-    price: "115000",
+    price: "260",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی گرم",
     title: "کاپوچینو پرمیوم",
     desc: "",
-    price: "100000",
+    price: "250",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی گرم",
     title: "هات چاکلت",
     desc: "",
-    price: "120000",
+    price: "260",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی گرم",
     title: "وایت چاکلت",
     desc: "",
-    price: "110000",
-    image: "/imgs/album.webp",
-  },
-  {
-    category: "نوشیدنی گرم",
-    title: "چاکلت لاوا",
-    desc: "",
-    price: "130000",
+    price: "250",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی گرم",
     title: "چای ماسالا",
     desc: "",
-    price: "110000",
+    price: "250",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی گرم",
     title: "چای کرک",
     desc: "",
-    price: "110000",
+    price: "250",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی گرم",
     title: "درتی بیسکوییت",
     desc: "",
-    price: "150000",
+    price: "330",
     image: "/imgs/album.webp",
   },
   {
     category: "نوشیدنی گرم",
     title: "دمنوش درازنو",
     desc: "لیمو +  آویشن + چای ترش + به همراه نبات و خرما",
-    price: "80000",
+    price: "190",
     image: "/imgs/album.webp",
   },
   //   غذا
-  {
-    category: "غذا",
-    title: "نیمرو",
-    desc: "",
-    price: "90000",
-    image: "/imgs/album.webp",
-  },
-  {
-    category: "غذا",
-    title: "املت",
-    desc: "",
-    price: "95000",
-    image: "/imgs/album.webp",
-  },
-  {
-    category: "غذا",
-    title: "سیب زمینی ساده",
-    desc: "",
-    price: "150000",
-    image: "/imgs/album.webp",
-  },
-  {
-    category: "غذا",
-    title: "سیب زمینی با سس قارچی",
-    desc: "",
-    price: "175000",
-    image: "/imgs/album.webp",
-  },
-  {
-    category: "غذا",
-    title: "پنینی مرغ",
-    desc: "",
-    price: "190000",
-    image: "/imgs/album.webp",
-  },
-  {
-    category: "غذا",
-    title: "ماکارونی",
-    desc: "فقط سه شنبه ها",
-    price: "145000",
-    image: "/imgs/album.webp",
-    class:
-      "relative border-2 border-yellow-400 text-white rounded-xl flex flex-col items-center p-3 justify-between min-h-36 shadow-[0_0_15px_rgba(255,215,0,0.6)] before:absolute before:inset-0 before:rounded-xl before:border-[3px] before:border-yellow-500 before:blur-sm before:opacity-60 before:animate-pulse",
-    class2:
-      "relative bg-[#7a2b2b] text-[11px] px-2 py-1 rounded-md mb-2 text-center leading-relaxed border-2 border-[#c49a3a] shadow-[0_0_10px_rgba(196,154,58,0.6)] before:absolute before:inset-0 before:rounded-md before:border-[2px] before:border-[#ffcc5c] before:blur-[1px] before:opacity-70 before:animate-pulse w-full",
-  },
-  {
-    category: "غذا",
-    title: "طعم سوم",
-    desc: "سیب زمینی + فیله مرغ مزه دار شده + قارچ + سرکه بالزامیک",
-    price: "240000",
-    image: "/imgs/album.webp",
-  },
   // {
   //   category: "غذا",
-  //   title: "سالاد سزار",
+  //   title: "پاستا",
   //   desc: "",
-  //   price: "190000",
+  //   price: "590",
+  //   image: "/imgs/album.webp",
+  // },
+  // {
+  //   category: "غذا",
+  //   title: "املت با مخلفات",
+  //   desc: "",
+  //   price: "225",
+  //   image: "/imgs/album.webp",
+  // },
+  // {
+  //   category: "غذا",
+  //   title: "سیب زمینی ساده",
+  //   desc: "",
+  //   price: "240",
+  //   image: "/imgs/album.webp",
+  // },
+  // {
+  //   category: "غذا",
+  //   title: "سیب زمینی با سس قارچی",
+  //   desc: "",
+  //   price: "360",
+  //   image: "/imgs/album.webp",
+  // },
+  // {
+  //   category: "غذا",
+  //   title: "پنینی مرغ",
+  //   desc: "",
+  //   price: "360",
   //   image: "/imgs/album.webp",
   // },
 ];
@@ -292,12 +273,12 @@ export default function Menu() {
         >
           نوشیدنی سرد
         </a>
-        <a
+        {/* <a
           href="#food"
           className="flex-1 px-3 py-2 text-center text-[#8B0000] text-sm font-semibold hover:bg-[#8B0000]/10 transition-colors"
         >
           غذا
-        </a>
+        </a> */}
       </div>
 
       {/* سکشن نوشیدنی گرم */}
@@ -336,7 +317,8 @@ export default function Menu() {
               )}
 
               <span className="font-bold">
-                {numeral(item.price).format("0,0")} تومان
+                {numeral(item.price).format("0,0")} 
+{/* تومان */}
               </span>
             </div>
           ))}
@@ -374,16 +356,17 @@ export default function Menu() {
               )}
 
               <span className="font-bold">
-                {numeral(item.price).format("0,0")} تومان
+                {numeral(item.price).format("0,0")} 
+{/* تومان */}
               </span>
             </div>
           ))}
       </div>
 
       {/* سکشن غذا */}
-      <h2 id="food" className="text-4xl ordi mt-20 mb-10 font-bold text-black">
+      {/* <h2 id="food" className="text-4xl ordi mt-20 mb-10 font-bold text-black">
         غذا
-      </h2>
+      </h2> */}
       <div className="grid grid-cols-2 gap-4 w-full max-w-md mb-6">
         {menuItems
           .filter((item) => item.category === "غذا")
@@ -420,7 +403,8 @@ export default function Menu() {
               )}
 
               <span className="font-bold">
-                {numeral(item.price).format("0,0")} تومان
+                {numeral(item.price).format("0,0")} 
+{/* تومان */}
               </span>
             </div>
           ))}

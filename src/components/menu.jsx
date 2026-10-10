@@ -350,12 +350,12 @@ export default function Menu() {
         {/* <span className="block w-full h-[2px] bg-[#4e4e4e] rounded-full"/> */}
       </div>
 
-      <div className="flex flex-col items-center my-2">
+       {/*<div className="flex flex-col items-center my-2">
         <p className="text-sm text-center text-black my-1 font-bold mt-8">
         "برای همه جا داریم ، در زمان شلوغی هر میز چهل دقیقه"
         </p>
-        {/* <span className="block w-full h-[2px] bg-[#383d41] mt-2 rounded-full"/> */}
-      </div>
+        <span className="block w-full h-[2px] bg-[#383d41] mt-2 rounded-full"/> 
+      </div>*/}
 
       <h2 className="text-xl ordi text-[#000000] font-black my-6">منو</h2>
 

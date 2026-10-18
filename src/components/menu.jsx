@@ -329,21 +329,21 @@ const menuItems = [
     image: "/imgs/album.webp",
   },
   {
-    category: "غذا",
+    category: "صبحانه",
     title: "املت",
     desc: "",
     price: "260",
     image: "/imgs/album.webp",
   },
     {
-    category: "غذا",
+    category: "صبحانه",
     title: "سیب زمینی تخم مرغ",
     desc: "سیب زمینی سرخ شده + پیاز + تخم مرغ",
     price: "290",
     image: "/imgs/album.webp",
   },
     {
-    category: "غذا",
+    category: "صبحانه",
     title: "آشوب",
     desc: "عدسی + دو عدد تخم مرغ + بیکن + قارچ + سیب زمینی طلایی",
     price: "730",
@@ -391,6 +391,12 @@ export default function Menu() {
           className="flex-1 px-3 py-2 text-center text-[#8B0000] text-sm font-semibold hover:bg-[#8B0000]/10 transition-colors"
         >
           غذا
+        </a>
+        <a
+          href="#BrakFast"
+          className="flex-1 px-3 py-2 text-center text-[#8B0000] text-sm font-semibold hover:bg-[#8B0000]/10 transition-colors"
+        >
+          صبحانه
         </a>
       </div>
 
@@ -522,6 +528,54 @@ export default function Menu() {
             </div>
           ))}
       </div>
+
+      {/* صبحانه */}
+      <h2 id="BrakFast" className="text-4xl ordi mt-20 mb-10 font-bold text-black">
+        صبحانه
+      </h2>
+      <div className="grid grid-cols-2 gap-4 w-full max-w-md mb-6">
+        {menuItems
+          .filter((item) => item.category === "صبحانه")
+          .map((item, index) => (
+            <div
+              key={index}
+              className={
+                item.class ??
+                "bg-[#661212 border-2 border-black text-[#ffffff] rounded-xl flex flex-col items-center p-3 justify-between min-h-36"
+              }
+            >
+              <h3 className="text-base font-semibold mb-2 yekan">
+                {item.title}
+              </h3>
+              <img
+                src={item.image}
+                alt={item.desc}
+                className="hidden h-20 object-contain mb-2 w-auto"
+              />
+
+              {item.desc ? (
+                <div
+                  className={
+                    item.class2 ??
+                    "bg-[#7a2b2b] text-[11px] px-2 py-1 rounded-md mb-2 text-center leading-relaxed shadow-inner border border-[#8a3a3a] w-full"
+                  }
+                >
+                  {item.desc}
+                </div>
+              ) : (
+                <p className="h-16 flex items-center">
+                  <img src="/imgs/food.webp" alt="food" className="w-10" />
+                </p>
+              )}
+
+              <span className="font-bold">
+                {numeral(item.price).format("0,0")} 
+{/* تومان */}
+              </span>
+            </div>
+          ))}
+      </div>
+
       <footer className="bg-gradient-to-b from-[#8B0000] to-[#5a0000] border-2 rounded-xl border-[#272727] text-[#FFDAB9] text-center leading-relaxed px-6 py-10 mt-12 font-vazir">
         <div className="max-w-3xl mx-auto">
           <div className="flex justify-center mb-6">

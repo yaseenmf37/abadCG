@@ -307,7 +307,6 @@ const menuItems = [
     price: "710",
     image: "/imgs/album.webp",
   },
- 
   {
     category: "غذا",
     title: "سیب زمینی ساده",
@@ -329,13 +328,27 @@ const menuItems = [
     price: "570",
     image: "/imgs/album.webp",
   },
-  // {
-  //   category: "غذا",
-  //   title: "املت با مخلفات",
-  //   desc: "",
-  //   price: "225",
-  //   image: "/imgs/album.webp",
-  // },
+  {
+    category: "غذا",
+    title: "املت",
+    desc: "",
+    price: "260",
+    image: "/imgs/album.webp",
+  },
+    {
+    category: "غذا",
+    title: "سیب زمینی تخم مرغ",
+    desc: "سیب زمینی سرخ شده + پیاز + تخم مرغ",
+    price: "290",
+    image: "/imgs/album.webp",
+  },
+    {
+    category: "غذا",
+    title: "آشوب",
+    desc: "عدسی + دو عدد تخم مرغ + بیکن + قارچ + سیب زمینی طلایی",
+    price: "730",
+    image: "/imgs/album.webp",
+  },
 ];
 
 export default function Menu() {

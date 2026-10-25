@@ -15,5 +15,8 @@ export default defineConfig({
     watch: {
       usePolling: true, // این گزینه ممکنه مشکل شما رو حل کنه
     },
+    proxy: {
+      "/api": "http://localhost:3001",
+    },
   },
 });

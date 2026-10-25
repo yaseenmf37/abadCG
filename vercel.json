@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "/api/index.js?__path=/api/:path*" },
+    { "source": "/admin", "destination": "/index.html" },
+    { "source": "/gallery", "destination": "/index.html" }
+  ]
+}
